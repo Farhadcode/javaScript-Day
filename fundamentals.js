@@ -1,5 +1,5 @@
 // let and  const
-/*
+
 const fatherName = 'Kalam';
 let productPrice = 445;
 productPrice = 550;
@@ -33,7 +33,9 @@ console.log(result3);
 console.log(numberArray);
 
 //nested Array 
-In JavaScript, arrays can be nested. This means that an array can have another array as an element. Array nesting can go to any depth. //
+/*
+In JavaScript, arrays can be nested. This means that an array can have another array as an element. Array nesting can go to any depth. 
+*/
 
 const value = [2, 4, 6, 8, 10, [1, 5, 7], 12];
 
@@ -53,7 +55,7 @@ for (let i = 0; i < numberArray.length; i++) {
 
 }
 console.log(sum);
-*/
+
 
 /// function 
 
