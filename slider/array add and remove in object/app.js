@@ -28,6 +28,13 @@ const saveToLocalDb = data => {
 const getData = () => {
     // return data;
     // const data = {};
-    const savedDb = localStorage.getItem('shopping-cart');
-    return JSON.parse(savedDb);
+    let savedDb = localStorage.getItem('shopping-cart');
+    // if (savedDb) {
+    //     savedDb = JSON.parse(savedDb);
+        
+    // }
+    // else{
+    //     savedDb ={}
+    // }
+    return savedDb ? JSON.parse(savedDb) : {} ;
 }

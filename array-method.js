@@ -11,18 +11,19 @@ const products = [
 const brands = products.map(pd => pd.brand);
 console.log(brands);
 
-//forEach 
 
-products.forEach(pd => console.log(pd));
+//forEach
+
+// products.forEach(pd => console.log(pd));
 products.forEach(pd => console.log(pd.price));
 
-// filter and  find 
+// // filter and  find
 
-const priceList = products.filter(pd => pd.price >= 3000);
-const nameList = products.filter(pd => pd.name.includes('n'));
+// const priceList = products.filter(pd => pd.price >= 3000);
+const nameList = products.filter(pd => pd.name.includes('c'));
 console.log(nameList);
 
-// find use
+// // find use
 
-const nameList1 = products.find(pd => pd.name.includes('n'));
+const nameList1 = products.find(pd => pd.name.includes('c'));
 console.log(nameList1);
